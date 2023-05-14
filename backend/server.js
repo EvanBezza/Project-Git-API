@@ -10,8 +10,9 @@ app.use(helmet())
 app.listen(3000, () => {
   console.log('Server running on port 3000')
 })
-
 const https = require('https')
+
+// ...
 
 // Search for users
 app.get('/api/search/:username', (req, res) => {
