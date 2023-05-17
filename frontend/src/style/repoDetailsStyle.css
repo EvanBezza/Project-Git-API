@@ -1,0 +1,25 @@
+#repoDetailsCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 0 0;
+}
+
+.repoContainer{
+    width: 55%;
+}
+
+.repoHeading{
+    font-size: 26px;
+}
+
+.repoText{
+    color: #BFADD9;
+}
+
+button{
+    padding: 0.3rem 0.5rem;
+    font-size: 12px;
+    color: #1D1D1D;
+    cursor: pointer;
+}
